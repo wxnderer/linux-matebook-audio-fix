@@ -14,6 +14,7 @@ while read path action file; do
     hda-verb /dev/snd/hwC0D0 0x16 0x701 0x0001
     hda-verb /dev/snd/hwC0D0 0x17 0x70C 0x0002
     hda-verb /dev/snd/hwC0D0 0x1 0x715 0x2
+    sleep 2
 done
 EOF
 
